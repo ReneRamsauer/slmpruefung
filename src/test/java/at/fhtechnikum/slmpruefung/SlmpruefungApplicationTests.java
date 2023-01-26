@@ -19,6 +19,7 @@ class SlmpruefungApplicationTests {
 		double result = controller.calcArea("square",10.0);
 		/* Then */
 		assertEquals(result,100.0);
+
 	}
 	@Test
 	public void testCalculationCircle() {
